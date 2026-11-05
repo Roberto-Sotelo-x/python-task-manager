@@ -1,10 +1,15 @@
 print("Welcome to Python Task Manager!")
 
-while True:
-    
+def show_menu():
     print("\n1. Add Task")
     print("2. View Tasks")
     print("3. Exit")
+
+tasks = []
+
+while True:
+
+    show_menu()
 
     choice = input("\nEnter your choice: ")
     if choice == '1':
